@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/consume")
 public class ConsumeController {
 
-    //远程引用接口
+    // 远程引用接口
     @Reference
     private IUserService userService;
 
